@@ -18,8 +18,8 @@ const anthropic = new Anthropic({
 
 // Middleware
 const corsOptions = {
-    origin: 'https://pidginchatbot-one.vercel.app/',
-    //  origin: 'http://localhost:3001',
+    // origin: 'https://pidginchatbot-one.vercel.app/',
+     origin: 'http://localhost:3001',
     methods: ['GET', 'POST', 'PUT', 'DELETE'],
     credentials: true
 };
