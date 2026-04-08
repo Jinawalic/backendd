@@ -6,6 +6,7 @@
   "scripts": {
     "start": "tsx server.js",
     "dev": "tsx --watch server.js",
+    "postinstall": "prisma generate",
     "migrate": "npx prisma migrate dev",
     "studio": "npx prisma studio"
   },
